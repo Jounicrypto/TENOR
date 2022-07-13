@@ -1,0 +1,30 @@
+#form{
+    display: flex;
+    justify-content: space-around;
+}
+#form>.btn{
+    margin-top: 1.9rem;
+    margin-left: 2px;
+}
+#form>div{
+    margin-left: 2px;
+}
+#war_para{
+    margin: auto;
+    padding: 10px;
+    background-color: #6b012c;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 20rem);
+}
